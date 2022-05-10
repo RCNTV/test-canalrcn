@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bulma/css/bulma.css'
+import Instruction from './components/Instruction';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/** 
+       * Escribe tu código aquí, puedes reemplazar el componente <Instruction /> por el tuyo.
+       * Se creativo. Buena suerte !!!
+       * 
+      */}
+      <Instruction />
     </div>
   );
 }
